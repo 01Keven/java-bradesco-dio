@@ -1,3 +1,5 @@
+package edu.dio.sintaxe;
+
 public class ConcatenarString {
     public static void main(String[] args) {
         String primeiroNome = "keven";

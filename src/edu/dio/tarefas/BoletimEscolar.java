@@ -1,3 +1,4 @@
+package edu.dio.tarefas;
 public class BoletimEscolar {
     public static void main(String[] args) {
         double media = 7.0;
