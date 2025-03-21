@@ -44,11 +44,11 @@ public class SistemaTv {
 
     public static void main(String[] args) {
         SistemaTv tv1 = new SistemaTv(true, 1,4);
-        System.out.println(tv1.canal);
         tv1.estadoDaTvLigada(true);
         tv1.trocarCanal(3);
         tv1.aumentarVolume();
         tv1.diminuirVolume();
         tv1.diminuirVolume();
+        System.out.println(tv1.canal);
     }
 }
